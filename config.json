@@ -1,0 +1,28 @@
+{
+  "bot1": {
+
+  "username": "",
+  "password": "",
+  "sharedSecret": "",
+  "identitySecret" : ""
+  },
+
+  "bot2": {
+
+  "username": "",
+  "password": "",
+  "sharedSecret": "",
+  "identitySecret" : ""
+  },
+
+  "steam": {
+
+    "ownerLink": "",
+    "adminID": ""
+  },
+
+  "messages": {
+    "greetMessage": "",
+    "test": ""
+  }
+}
