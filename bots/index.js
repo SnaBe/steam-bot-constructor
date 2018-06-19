@@ -1,6 +1,5 @@
 const SteamUser = require('steam-user');
 const SteamCommunity = require('steamcommunity');
-const TradeOfferManager = require('steam-tradeoffer-manager');
 const config = require('../config.json');
 
 class SteamBot {
