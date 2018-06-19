@@ -1,0 +1,21 @@
+{
+  "name": "steam-bot-constructor",
+  "version": "1.0.0",
+  "description": "A constructor for Steam bots.",
+  "main": "app.js",
+  "scripts": {
+    "test": "start node app.js"
+  },
+  "keywords": [
+    "bot",
+    "steam",
+    "constructor"
+  ],
+  "author": "SnaBe",
+  "license": "ISC",
+  "dependencies": {
+    "steam-totp": "^2.1.0",
+    "steam-user": "^3.27.1",
+    "steamcommunity": "^3.36.2"
+  }
+}
