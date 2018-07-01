@@ -24,13 +24,6 @@ class SteamBot {
       this.client.setPersona(SteamUser.Steam.EPersonaState.Online);
       this.client.gamesPlayed(440);
     });
-
-    this.client.on('webSession', (sessionid, cookies) => {
-      this.manager.setCookies(cookies);
-
-      this.community.setCookies(cookies);
-      this.community.startConfirmationChecker(10000, config.identitySecret);
-    });
   }
 }
 
