@@ -1,6 +1,5 @@
 {
   "bot1": {
-
   "username": "",
   "password": "",
   "sharedSecret": "",
@@ -8,7 +7,6 @@
   },
 
   "bot2": {
-
   "username": "",
   "password": "",
   "sharedSecret": "",
@@ -16,7 +14,6 @@
   },
 
   "steam": {
-
     "ownerLink": "",
     "adminID": ""
   },
