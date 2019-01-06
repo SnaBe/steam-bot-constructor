@@ -1,16 +1,16 @@
 {
   "bot1": {
-  "username": "",
-  "password": "",
-  "sharedSecret": "",
-  "identitySecret" : ""
+    "username": "",
+    "password": "",
+    "sharedSecret": "",
+    "identitySecret" : ""
   },
 
   "bot2": {
-  "username": "",
-  "password": "",
-  "sharedSecret": "",
-  "identitySecret" : ""
+    "username": "",
+    "password": "",
+    "sharedSecret": "",
+    "identitySecret" : ""
   },
 
   "steam": {
