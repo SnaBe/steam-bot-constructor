@@ -24,6 +24,17 @@ class SteamBot {
       this.client.setPersona(SteamUser.Steam.EPersonaState.Online);
       this.client.gamesPlayed(440);
     });
+    
+    this.client.on('webSession', (sessionid, cookies) => {
+      this.manager.setCookies(cookies, (err) => {
+        if(err) {
+          console.log(`Unable to get cookies for trade offers. Error message: ${err.message}`)
+        }
+        console.log(`Trade offer cookies set. Got our api key: ${this.manager.apiKey}`);
+      });
+
+      this.community.setCookies(cookies);
+    });
   }
 }
 
