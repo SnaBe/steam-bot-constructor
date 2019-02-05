@@ -19,7 +19,7 @@ class SteamBot {
     this.client.logOn(logOnOptions);
 
     this.client.on('loggedOn', () => {
-      console.log('Succesfully logged on to Steam!');
+      console.log(`Bot ${this.client.steamID.getSteamID64()} successfully logged into Steam!`);
 
       this.client.setPersona(SteamUser.Steam.EPersonaState.Online);
       this.client.gamesPlayed(440);
