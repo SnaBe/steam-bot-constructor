@@ -15,7 +15,8 @@
   "license": "ISC",
   "dependencies": {
     "steam-totp": "^2.1.0",
-    "steam-user": "^3.27.1",
-    "steamcommunity": "^3.36.2"
+    "steam-tradeoffer-manager": "^2.9.5",
+    "steam-user": "^3.29.3",
+    "steamcommunity": "^3.38.0"
   }
 }
