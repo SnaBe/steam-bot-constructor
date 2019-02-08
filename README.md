@@ -14,7 +14,7 @@ Find the donwloaded folder, place it somewhere new and extract the files.
 
 Add your bot's steam account details & style the bot's profile. 
 
-If you would like your bot to trade without a trade hold, you can do that too.
+If you would like your bots to trade without a trade hold, you can do that too.
 
 Just download [SDA ](https://github.com/Jessecar96/SteamDesktopAuthenticator/releases/tag/1.0.9 "SDA download page") and follow the steps to setup a new account.
 
